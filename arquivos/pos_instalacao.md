@@ -33,7 +33,7 @@ firefox mpv
 ### 5. Instalar AUR Helper (yay)
 
 ```bash
-git clone [https://aur.archlinux.org/yay.git](https://aur.archlinux.org/yay.git) /tmp/yay
+git clone https://aur.archlinux.org/yay.git /tmp/yay
 cd /tmp/yay && makepkg -si --noconfirm
 
 ```
@@ -48,6 +48,6 @@ yay -S --noconfirm ttf-ms-fonts
 ### 7. Configurar Flathub
 
 ```bash
-flatpak remote-add --if-not-exists flathub [https://dl.flathub.org/repo/flathub.flatpakrepo](https://dl.flathub.org/repo/flathub.flatpakrepo)
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 ```
