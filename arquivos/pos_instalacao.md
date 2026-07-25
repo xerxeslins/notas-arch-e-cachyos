@@ -26,7 +26,7 @@ sudo pacman -S --needed $(pacman -Qq | grep -E '^linux(-lts|-zen|-hardened)?$' \
 sudo pacman -S --needed base-devel git wget curl btop fastfetch cava zip unzip unrar p7zip \
 ttf-dejavu ttf-liberation noto-fonts noto-fonts-emoji noto-fonts-cjk timeshift flatpak \
 gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav ffmpeg libdvdcss \
-firefox mpv
+firefox mpv dolphin ark kate
 
 ```
 
